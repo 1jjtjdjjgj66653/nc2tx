@@ -935,7 +935,7 @@ end
 -- ================= 窗口 =================
 local Window = Library:CreateWindow({
     Title = "多功能脚本",
-    Footer = "nex制作 群1079540447",
+    Footer = "脚本由大肉帮帮主制作",
     Icon = 95816097006870,
     NotifySide = "Right",
     ShowCustomCursor = true,
@@ -958,7 +958,7 @@ MainGroup:AddButton({Text = "启动甩飞", Func = function() ToggleSilentFly(tr
 MainGroup:AddButton({Text = "停止甩飞", Func = function() ToggleSilentFly(false) end})
 MainGroup:AddToggle("SpeedBoost", {Text = "速度修改", Default = false, Callback = ToggleSpeed})
 MainGroup:AddSlider("SpeedValue", {Text = "移动速度", Default = 16, Min = 16, Max = 50, Rounding = 0, Compact = false, Callback = function(v) speedValue = v if speedEnabled then SetSpeed(v) end end})
-MainGroup:AddLabel("nex制作 群1079540447", true)
+MainGroup:AddLabel("甩飞由nex制作(侵权即删) 群1079540447", true)
 
 -- ================= 杀戮UI =================
 local KillGroup = Tabs.Kill:AddLeftGroupbox("杀戮功能", "sword")

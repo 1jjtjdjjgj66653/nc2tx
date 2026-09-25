@@ -8,9 +8,7 @@
 ]]
 
 --[[
-Dex 修复版 by TX Script
-主要针对了delta等执行器反编译库损坏而推出的修复版
-感谢由lua expert提供api支持
+通过github上的开源反编译再加上我自己汉化和制作成的修复dex
 ]]
 
 local nodes = {}
